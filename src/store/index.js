@@ -16,7 +16,6 @@ store.subscribe(() => {
     const state  = store.getState();
 
     window.sessionStorage.setItem('state', JSON.stringify(state))
-    console.log('state set')
 });
 
 export default store

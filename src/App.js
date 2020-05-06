@@ -37,7 +37,6 @@ class App extends Component {
       resetGame,
       statistics
     } = this.props
-console.log(this.props)
     return (
       <div className="App" data-testid="App">
         <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>

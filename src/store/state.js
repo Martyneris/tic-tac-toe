@@ -29,7 +29,6 @@ export default function (state = initialState, action) {
             const winner = winnerResult ? action.player : null
             const status = winner ? `The winner is ${action.player}` : state.status
             if (winner) {
-                // const statistics = { player: state.turn === 'O' || state.turn === '' ? 'X' : 'O', moves: state.moves + 1, position: action.pos }
                 return { ...state, winner, status }
             }
             return { ...state, winner, status }
