@@ -1,5 +1,9 @@
 ## Available Scripts
 
+To install the needed modules, run : 
+
+### `yarn`
+
 In the project directory, you can run:
 
 ### `yarn start`
